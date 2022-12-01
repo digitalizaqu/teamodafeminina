@@ -74536,8 +74536,8 @@ gvy(){var s=this.cy
 s=s==null?null:s.c
 return s==null?A.a([],t.Xj):s},
 gafe(){var s=this.cy
-if(s.c.length<20)return!0
-return s.d*20>this.gvy().length},
+if(s.c.length<10)return!0
+return s.d*10>this.gvy().length},
 yc(a,b){if(b)this.CW=a
 this.d2(0)},
 FX(a){return this.yc(a,!1)},
@@ -74570,7 +74570,7 @@ oU(){var s=0,r=A.O(t.H),q=this,p,o,n
 var $async$oU=A.P(function(a,b){if(a===1)return A.L(b,r)
 while(true)switch(s){case 0:q.yc(!0,!0)
 p=q.cy
-o=A.af(["page",p.d,"itemsPerPage",20,"categoryId",p.a],t.N,t.z)
+o=A.af(["page",p.d,"itemsPerPage",10,"categoryId",p.a],t.N,t.z)
 p=q.db
 if(J.bV(p.gl(p))!==0)o.p(0,"title",p.gl(p))
 if(q.cy.a==="")o.B(0,"categoryId")
